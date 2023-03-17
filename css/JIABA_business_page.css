@@ -1,0 +1,158 @@
+h2{
+    color: #134e6c;
+    line-height: 40px;
+
+}
+
+hr{
+    margin: 20px 0;
+    margin-left: 50px;
+    width: 90%;
+    border-top: 1px dashed #ab917f ;
+
+}
+
+.business{
+    max-width: 1200px;
+    width: 100%;
+    background-color: rgb(250, 250, 241); 
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+.information{
+    margin: auto;
+    width: 80%;
+
+}
+
+.business_pic{
+    width:100%;
+    border-radius: 3px;
+
+}
+
+.business_txt{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #696565;
+    background-color:rgba(248, 170, 149, 0.15);
+    border-radius: 3px;
+    border: 1px dashed #ab917f;
+
+}
+
+.txt_box{
+    margin: 20px;
+    
+}
+
+.score_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+
+.score_wrap p{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ff8563;
+
+}
+
+.target{
+    width: 14px;
+   
+}
+
+.discount, .service, .introduce{
+    padding: 30px 0;
+    width: 80%;
+    margin: auto;
+
+}
+
+.discount p, .service p, .introduce p{
+    color: #696565;
+    line-height: 30px;
+    background-color:rgba(248, 170, 149, 0.15);
+    padding: 20px;
+    width: 90%;
+
+}
+
+
+
+@media screen and (min-width:768px){
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 100%;
+
+}
+
+.business_pic{
+    width:40%;
+    margin-top: 20px;
+
+}
+
+.business_txt{
+    width: 40%;
+    margin-left: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.score_wrap{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+.discount h2, .service h2, .introduce h2{
+    padding-left: 20px;
+
+}
+
+.discount p, .service p, .introduce p{
+    width: 85.333333%;
+
+}
+
+}
+
+
+
+@media screen and (min-width:1200px) {
+.business{
+    padding: 40px;
+
+}
+
+.business_pic{
+    width:45%;
+    border-radius: 3px;
+    
+}
+
+.business_txt{
+    width: 32.9%;
+
+}
+
+.discount, .service, .introduce{
+    margin-left: 119px;
+
+}
+
+}
