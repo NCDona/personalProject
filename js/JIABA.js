@@ -57,7 +57,7 @@ $(document).ready(function(){
         navText: ["<img src='pic/homepage/left-arrow.png'>","<img src='pic/homepage/right-arrow.png'>"]
     });
 
-    // //slot machine
+    //slot machine
 
     (function($){
 
